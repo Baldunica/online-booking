@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "online-booking"
+version = "0.1.0"
+description = "App for online booking"
+authors = ["group"]
+readme = "README.md"
+packages = [{include = "online_booking"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+sqlalchemy = "^2.0.25"
+make = "^0.1.6.post2"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

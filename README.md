@@ -4,7 +4,7 @@ testing pull requests in project
 Утановка настройка poetry
 
 ```shell
-popd install poetry
+pip install poetry
 poetry config virtualenvs.in-project true # чтобы виртуальное окружение было в проекте
 poetry add ... # добавить зависимость
 poetry show --tree # посмотреть дерево зависимостей
